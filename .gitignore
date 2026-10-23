@@ -1,0 +1,10 @@
+# Local build and verification output
+**/bin/
+**/obj/
+TestResults/
+*.tgz
+*.unitypackage
+.DS_Store
+Thumbs.db
+.vs/
+.idea/

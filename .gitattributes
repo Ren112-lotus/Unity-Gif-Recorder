@@ -1,0 +1,16 @@
+* text=auto
+*.cs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.meta text eol=lf
+*.uxml text eol=lf
+*.uss text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.asmdef text eol=lf
+*.csproj text eol=lf
+
+/.github export-ignore
+/Tests~ export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore

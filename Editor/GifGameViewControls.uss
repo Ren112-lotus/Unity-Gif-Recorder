@@ -1,0 +1,28 @@
+.gif-controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 21px;
+    padding-left: 0;
+    padding-right: 0;
+    border-width: 0;
+}
+.native-toolbar {
+    flex-grow: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+.action {
+    height: 20px;
+    width: 86px;
+    font-size: 11px;
+    flex-shrink: 0;
+    margin-left: 1px;
+    margin-right: 0;
+}
+.more {
+    width: 22px;
+    height: 20px;
+    flex-shrink: 0;
+}

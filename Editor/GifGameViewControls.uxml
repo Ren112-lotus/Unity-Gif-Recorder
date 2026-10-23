@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="GifGameViewControls.uss" />
+    <uie:Toolbar name="astral-gif-game-controls" class="gif-controls">
+        <ui:IMGUIContainer name="native-toolbar" class="native-toolbar" />
+        <uie:ToolbarButton name="record" text="● GIF録画" class="action" />
+        <uie:ToolbarMenu name="more" text="⋮" class="more" />
+    </uie:Toolbar>
+</ui:UXML>

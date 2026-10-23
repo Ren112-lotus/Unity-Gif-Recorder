@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="GifRecorderWindow.uss" />
+    <ui:ScrollView class="gif-recorder">
+        <ui:Label text="GIF録画設定" class="title" />
+        <ui:Label text="Gameビューの既存ツールバー右端にある「● GIF録画 / ■ GIF」、またはF9で開始・終了します。中止・保存したGIFの表示は隣の「⋮」メニュー。" class="description" />
+        <ui:VisualElement name="settings">
+            <ui:SliderInt name="fps" label="FPS" low-value="5" high-value="30" show-input-field="true" />
+            <ui:IntegerField name="maximumEdge" label="最大辺（px）" />
+            <ui:Toggle name="loop" label="無限ループ" />
+            <ui:TextField name="directory" label="保存先" />
+            <ui:Button name="browse" text="保存先を選択…" />
+        </ui:VisualElement>
+        <ui:Label name="estimate" class="description" />
+        <ui:ProgressBar name="progress" low-value="0" high-value="100" />
+        <ui:Label name="status" class="status" />
+        <ui:Button name="reveal" text="保存したGIFを表示" />
+        <ui:HelpBox text="PlayモードでGameビューを表示したまま録画します。この設定画面を閉じても録画は続きます。GIFの保存完了後にPlayモードを終了してください。再生終了・スクリプト再読み込みでは未完了の録画と保存を中止します。" message-type="Info" />
+    </ui:ScrollView>
+</ui:UXML>

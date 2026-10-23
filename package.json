@@ -1,0 +1,18 @@
+{
+  "name": "com.ren112-lotus.gif-recorder",
+  "version": "1.0.0",
+  "displayName": "Unity GIF Recorder",
+  "description": "Record the Unity Game view as an animated GIF with manual start/stop controls in the existing Game view toolbar. No external encoder required.",
+  "unity": "6000.4",
+  "unityRelease": "1f1",
+  "license": "MIT",
+  "author": {
+    "name": "Ren112-lotus",
+    "url": "https://github.com/Ren112-lotus"
+  },
+  "documentationUrl": "https://github.com/Ren112-lotus/Unity-Gif-Recorder#readme",
+  "changelogUrl": "https://github.com/Ren112-lotus/Unity-Gif-Recorder/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Ren112-lotus/Unity-Gif-Recorder/blob/main/LICENSE.md",
+  "keywords": ["gif", "recorder", "capture", "game-view", "editor"],
+  "dependencies": {}
+}

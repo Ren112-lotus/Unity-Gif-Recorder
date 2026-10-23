@@ -1,0 +1,6 @@
+{
+  "name": "Astral.GifRecorder.Editor",
+  "rootNamespace": "Astral.EditorTools.GifRecorder",
+  "references": ["Astral.GifRecorder.Capture"],
+  "includePlatforms": ["Editor"]
+}

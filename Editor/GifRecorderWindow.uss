@@ -1,0 +1,21 @@
+.gif-recorder {
+    padding: 12px;
+}
+.title {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-bottom: 6px;
+}
+.description {
+    white-space: normal;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.status {
+    white-space: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+HelpBox {
+    margin-top: 12px;
+}
